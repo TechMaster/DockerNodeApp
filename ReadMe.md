@@ -28,3 +28,9 @@ git checkout v3.0
 cat Dockerfile
 cat buid.sh
 ```
+**Hướng dẫn bài 4**
+```
+git checkout v4.0
+./build.sh
+```
+Bài 4 sử dụng build.sh để tự động hoá việc build image, tạo container...
