@@ -11,4 +11,4 @@ COPY ./myweb/ /src/app/
 
 EXPOSE 3000
 
-ENTRYPOINT ["yarn", "start"]
+ENTRYPOINT ["./entry.sh"]
